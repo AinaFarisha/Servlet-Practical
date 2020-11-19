@@ -57,9 +57,9 @@ public class loginInfo extends HttpServlet {
                 "<body bgcolor = \"#f0f0f0\">\n" +
                    "<h1 align = \"center\">" + title + "</h1>\n" +
                    "<ul>\n" +
-                      "  <li><b>First Name</b>: "
+                      "  <li><b>ID</b>: "
                       + request.getParameter("ID") + "\n" +
-                      "  <li><b>Last Name</b>: "
+                      "  <li><b>Password</b>: "
                       + request.getParameter("pw") + "\n" +
                    "</ul>\n" +
                 "</body>" +
