@@ -46,7 +46,7 @@ public class loginInfo extends HttpServlet {
       if(login) {
 
     	  PrintWriter out = response.getWriter();
-          String title = "Using GET Method to Read Form Data";
+          String title = "Welcome!";
           String docType =
              "<!doctype html public \"-//w3c//dtd html 4.0 " + "transitional//en\">\n";
           
